@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.successemmanuel.eggondictionary.mDataBase.DBHelper;
 
 
@@ -19,6 +21,7 @@ public class Word extends AppCompatActivity {
     TextView definitionTxt;
     TextView exampleTxt;
     Button deleteBtn;
+    AdView mAdView;
     private String selectedWord;
     private String selectedType;
     private String selectedDef;
@@ -29,6 +32,10 @@ public class Word extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word);
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         wordTxt = (TextView)findViewById(R.id.text_selected);
         typeTxt = (TextView)findViewById(R.id.text_type);

@@ -14,6 +14,8 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.successemmanuel.eggondictionary.mDataBase.DBHelper;
 
 import java.util.ArrayList;
@@ -24,6 +26,7 @@ public class FavoriteWords extends AppCompatActivity {
     DBHelper myDB;
     ListView wordList;
     Context c;
+    AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +34,10 @@ public class FavoriteWords extends AppCompatActivity {
         setContentView(R.layout.activity_favorite_words);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         wordList = (ListView)findViewById(R.id.fav_word_list);
         myDB = new DBHelper(this);

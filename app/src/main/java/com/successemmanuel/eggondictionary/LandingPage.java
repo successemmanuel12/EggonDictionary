@@ -15,7 +15,7 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(2000);
+                    sleep(1000);
                     Intent d = new Intent(getApplicationContext(),DictionaryMain.class);
                     startActivity(d);
                     finish();

@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.successemmanuel.eggondictionary.mDataBase.DBAdapter;
 
 
@@ -17,6 +19,7 @@ public class DefinitionActivity extends AppCompatActivity {
     TextView typeTxt;
     TextView definitionTxt;
     TextView exampleTxt;
+    AdView mAdView;
 
 
     @Override
@@ -29,6 +32,10 @@ public class DefinitionActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         wordTxt = (TextView)findViewById(R.id.text_selected);
         typeTxt = (TextView)findViewById(R.id.text_type);

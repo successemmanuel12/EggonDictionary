@@ -19,6 +19,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.successemmanuel.eggondictionary.DataObject.DataObjectCollection;
 import com.successemmanuel.eggondictionary.mListView.CustomAdapter;
 
@@ -27,6 +30,7 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
     ListView lv;
     SearchView sv;
     CustomAdapter adapter;
+    private AdView mAdView;
 
 
     @Override
@@ -35,6 +39,12 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
         setContentView(R.layout.activity_dictionary_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        MobileAds.initialize(this, "@strings/banner_ad_unit_id");
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         lv= (ListView) findViewById(R.id.list_word);
         sv = (SearchView) findViewById(R.id.search);

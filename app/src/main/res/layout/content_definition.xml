@@ -76,5 +76,14 @@
 
         </RelativeLayout>
     </ScrollView>
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-394025609942544/6300978111">
+        <!--ads:adUnitId="ca-app-pub-7409792334263349/4695556899"-->
 
+    </com.google.android.gms.ads.AdView>
 </RelativeLayout>
