@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.successemmanuel.eggondictionary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/elag"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/elag"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LandingPage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DictionaryMain"
+            android:label="@string/title_activity_dictionary_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".DictionaryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
+        </activity>
+        <activity android:name=".WordOfTheDay" />
+        <activity
+            android:name=".DefinitionActivity"
+            android:label="@string/title_activity_definition"
+            android:parentActivityName=".DictionaryMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
+        </activity>
+        <activity
+            android:name=".FavoriteWords"
+            android:label="@string/title_activity_favorite_words"
+            android:parentActivityName=".DictionaryMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
+        </activity>
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history"
+            android:parentActivityName=".DictionaryMain"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
+        </activity>
+        <activity android:name=".Word"></activity>
+    </application>
+
+</manifest>

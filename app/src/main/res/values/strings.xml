@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Eggon Dictionary</string>
+    <string name="title_activity_dictionary_main">Eggon Dictionary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcome_text">EGGON LOCAL LANGUAGE DICTIONARY</string>
+
+    <string name="eggon_local_dictionary_n_design_by">Eggon Local Dictionary \nDesign by:</string>
+    <string name="ibrahim_emmanuel_success">Ibrahim Emmanuel Success</string>
+    <string name="communicate">Communicate</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="Search">Search</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_definition">Definition</string>
+    <string name="title_activity_favorite_words">Favorite Words</string>
+    <string name="title_activity_history">Brief History</string>
+
+    <string name="history_introduction">Introduction</string>
+    <string name="history_paragrah">The Eggon language is spoken by a large number of people in south-western Plateau State in Central Nigeria. These represent the modern Local Government Areas of Akwanga, Lafia and Nasarawa-Eggon.
+    The main towns of the Eggon people are Akwanga, Nasarawa-Eggon, Kagbu and Wana. They stretch as far south as Lafia and west of Akwanga as far as the railway line. They are bordered on the north by the Mada
+    and to the south by the Migili and the Alago.In much of the colonial literature, the Eggon were known as the Hill Mada in contrast to the Plains Mada, the people known as Mada today. The Eggon lived in the Mada hills south of Akwanga in the pre-colonial period, but there is no connection between the groups that would justify these terms and they have now been discarded.
+    \n \nThe exact number of speakers is unknown but it is unlikely to be less than the estimate of 200,000 given by Sibomana (1985). Ames (1934) gave a figure of 41,276 for the 1920s, but this is likely to have been substantially underestimated. Welmers (1971) estimated 52,000 although this may have been only a projection from Ames. Very little has been written about Eggon society and Temple (1922) and Ames (1934) are the only sources that contain any descriptions of Eggon social organisation. The Eggon live in Nasarawa Eggon Local Government Area (formerly Akwanga LGA) of Plateau State.
+    Their population is about 80,000 people.\n \n
+    This ethnic group is spread all over N/Eggon LGA and over other LGAs, namely Akwanga, Lafia, Awe, and Obi, all in Plateau State. However, wherever they live, they still
+    recognise that they came from Eggon hill in Nasarawa Eggon LGA. This tribe is bounded by the Gwandara to the west, the Migili to the south, some Alago (Assakio) groups to the east, and the Mada and Nungu (Rindre) to the north.</string>
+    <string name="history_heading">Eggon Dialects</string>
+    <string name="history_body">Eggon is conventionally divided into twenty-five mutually comprehensible dialects and a twenty-sixth, Madantara [=Alogani] said to be impossible to understand without special learning. The only author to discuss dialects is Sibomana (1985) whose discussion focuses on Kagbu, which he states is the main dialect. He also cites data from the Nassarawa-Eggon dialect. The Benue-Congo Comparative Wordlist (1969, 1972)also gives data from two dialects.\n \n
+    A so far unsolved problem of Eggon dialects is the language of the Madantara. Spoken by a group of Eggon east of Nassarawa-Eggon it is sufficiently different from other lects as to be effectively a new language. Only further research will resolve its status and origin.</string>
+    <string name="history_heading1">A history of attempts to write the Eggon language</string>
+    <string name="history_body1">The earliest written material in Eggon appears to be scripture portions from 1937, probably prepared by I.D. Hepburn. The dialect chosen for bible translation is based on the Wana dialect, although it is supplemented by forms from other dialects and so is a sort of synthetic Eggon not based on the speech of a particular group. A hymnbook and 2 readers were prepared, and the translation of the New Testament was completed in 1974. The orthography of the New Testament is somewhat different from the earlier publications.\n \n
+    Eggon is apparently in use in churches only in remoter regions and it has been displaced by Hausa in all establishments along the main road. However, there is apparently a move to revive the use of Eggon. Some evidence of this is the recent publication of new material in Eggon, a book of history and customs and a womens magazine which is intended to make a regular appearance.
+        A problem with this is that there is no established writing system and so such publications are not as easy to read as they might be. Still, it is clear evidence that Eggon is emerging again as a major language for literary development.</string>
+    <string name="history_heading2">How is Eggon related to other languages?</string>
+    <string name="history_body2">The exact classification of the Eggon language has been in dispute and it can be said that this issue remains unresolved. Eggon was first classified by Greenberg (1963) as a Plateau language in his group 5, together with Nungu and Yeskwa. In the revision prepared by Carl Hoffman published in Hansford et al. (1976) a Benue group was set up that combined Greenbergs Plateau 5 and 7 with Jukunoid. The new subgrouping
+        classified Eggon together with Nungu, Ake and Jidda-Abu. The concept came from the lexicostatistical studies of Shimizu (1975) who argued against the unity of Greenberg Plateau and proposed the Benue group. However, in 1983, Gerhardt published a convincing rebuttal of Shimizu arguments. The version of classification of Plateau languages in Gerhardt (1989) adds Yashi to the Eggon subgroup but removes the links with Benue i.e. Tarok and the Jukunoid languages.\n \nThe non-specialist can deduce from these debates that the matter is by no means settled. Much of the reason for this uncertainty is the poor quality of data on so many of the languages in question. All writers seem to agree on the nearest affiliated languages but to dispute the broader connections. All the other languages are spoken in extremely small communities and indeed, in some cases,
+        no new data has been published since Meek recorded wordlists in the 1920s.\n</string>
+
+</resources>
+

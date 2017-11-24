@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorite Words"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_pro"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="Get Pro"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_word"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="Word of the Day"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_rateUs"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Rate us"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Brief Eggon History"
+            tools:ignore="HardcodedText" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mail Us Suggestions"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@android:drawable/stat_notify_voicemail"
+                android:title="Visit Our Website"
+                tools:ignore="HardcodedText" />
+        </menu>
+    </item>
+
+
+</menu>
