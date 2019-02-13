@@ -59,6 +59,9 @@
                 android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
         </activity>
         <activity android:name=".Word"></activity>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="[ca-app-pub-7409792334263349/4759450398]"/>
+
     </application>
 
 </manifest>

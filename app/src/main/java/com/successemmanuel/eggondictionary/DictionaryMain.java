@@ -23,8 +23,7 @@ import com.successemmanuel.eggondictionary.DataObject.DataObjectCollection;
 import com.successemmanuel.eggondictionary.mListView.CustomAdapter;
 
 
-public class DictionaryMain extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class DictionaryMain extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     ListView lv;
     SearchView sv;
     CustomAdapter adapter;
