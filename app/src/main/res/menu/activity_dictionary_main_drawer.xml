@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <group android:checkableBehavior="single">
@@ -17,11 +18,6 @@
             android:id="@+id/nav_word"
             android:icon="@android:drawable/ic_popup_reminder"
             android:title="Word of the Day"
-            tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav_rateUs"
-            android:icon="@android:drawable/star_big_on"
-            android:title="Rate us"
             tools:ignore="HardcodedText" />
         <item
             android:id="@+id/nav_history"
@@ -49,6 +45,11 @@
                 tools:ignore="HardcodedText" />
         </menu>
     </item>
+    <item
+        android:id="@+id/nav_rateUs"
+        android:icon="@android:drawable/star_big_on"
+        android:title="Rate us"
+        tools:ignore="HardcodedText" />
 
 
 </menu>
