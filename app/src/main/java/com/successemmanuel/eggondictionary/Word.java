@@ -2,7 +2,7 @@ package com.successemmanuel.eggondictionary;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.successemmanuel.eggondictionary.mDataBase.DBHelper;
 
 
@@ -20,7 +21,7 @@ public class Word extends AppCompatActivity {
     TextView typeTxt;
     TextView definitionTxt;
     TextView exampleTxt;
-    Button deleteBtn;
+    FloatingActionButton deleteBtn;
     AdView mAdView;
     private String selectedWord;
     private String selectedType;
@@ -37,12 +38,12 @@ public class Word extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        wordTxt = (TextView)findViewById(R.id.text_selected);
-        typeTxt = (TextView)findViewById(R.id.text_type);
-        definitionTxt = (TextView)findViewById(R.id.text_meaning);
-        exampleTxt = (TextView) findViewById(R.id.text_example);
+        wordTxt = findViewById(R.id.text_selected);
+        typeTxt = findViewById(R.id.text_type);
+        definitionTxt = findViewById(R.id.text_meaning);
+        exampleTxt = findViewById(R.id.text_example);
 
-        deleteBtn = (Button) findViewById(R.id.deleteBtn);
+        deleteBtn = findViewById(R.id.delete_fab);
         myDB = new DBHelper(this);
         //get the intent extra from the Favorite word activity
         Intent receivedIntent = getIntent();

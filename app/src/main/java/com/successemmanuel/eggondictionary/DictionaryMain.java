@@ -5,18 +5,22 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.SearchView;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
+
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.google.android.gms.ads.AdRequest;
@@ -27,8 +31,8 @@ import com.successemmanuel.eggondictionary.mListView.CustomAdapter;
 
 
 public class DictionaryMain extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    ListView lv;
-    SearchView sv;
+    ListView mListView;
+    EditText mSearchList;
     CustomAdapter adapter;
     private AdView mAdView;
 
@@ -37,7 +41,7 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dictionary_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         MobileAds.initialize(this, "@strings/banner_ad_unit_id");
@@ -46,28 +50,31 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        lv= (ListView) findViewById(R.id.list_word);
-        sv = (SearchView) findViewById(R.id.search);
+        mListView = findViewById(R.id.list_word);
+        mSearchList = findViewById(R.id.search);
 
         adapter = new CustomAdapter(this, DataObjectCollection.getDataObjects());
-        lv.setAdapter(adapter);
+        mListView.setAdapter(adapter);
 
-        sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+        mSearchList.addTextChangedListener(new TextWatcher() {
             @Override
-            public boolean onQueryTextSubmit(String query) {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-                return false;
             }
 
             @Override
-            public boolean onQueryTextChange(String newText) {
-                adapter.getFilter().filter(newText);
-                return false;
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                adapter.getFilter().filter(s.toString());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
             }
         });
 
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -84,20 +91,20 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
             }
         });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -145,12 +152,11 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
         }else if (id == R.id.action_contactUs) {
             Intent intent = null, chooser = null;
             intent = new Intent(Intent.ACTION_SEND);
-            intent.setData(Uri.parse("mailto:"));
-            String[] to = {"successemmanuel12@gmail.com ", " gyanchi6@gmail.com"};
+            intent.setDataAndType(Uri.parse("mailto:"), "message/rfc8  22");
+            String[] to = {"successemmanuel12@gmail.com "};
             intent.putExtra(Intent.EXTRA_EMAIL, to);
             intent.putExtra(Intent.EXTRA_SUBJECT, "Mail Us Suggestions about our App.");
             intent.putExtra(Intent.EXTRA_TEXT, " ");
-            intent.setType("message/rfc8  22");
             chooser = Intent.createChooser(intent, "Send Mail");
             startActivity(chooser);
         }
@@ -197,19 +203,18 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
         } else if (id == R.id.nav_send) {
             Intent intent = null, chooser = null;
             intent = new Intent(Intent.ACTION_SEND);
-            intent.setData(Uri.parse("mailto:"));
-            String[] to = {"successemmanuel12@gmail.com ", " gyanchi6@gmail.com"};
+            intent.setDataAndType(Uri.parse("mailto:"), "message/rfc8  22");
+            String[] to = {"successemmanuel12@gmail.com "};
             intent.putExtra(Intent.EXTRA_EMAIL, to);
             intent.putExtra(Intent.EXTRA_SUBJECT, "Mail Us Suggestions about our App.");
             intent.putExtra(Intent.EXTRA_TEXT, " ");
-            intent.setType("message/rfc8  22");
             chooser = Intent.createChooser(intent, "Send Mail");
             startActivity(chooser);
         }else if (id == R.id.nav_website){
 
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

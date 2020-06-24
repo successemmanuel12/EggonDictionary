@@ -7,26 +7,36 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.successemmanuel.eggondictionary.DictionaryMain"
     tools:showIn="@layout/app_bar_dictionary_main">
-    <android.support.v7.widget.SearchView
+
+    <EditText
         android:id="@+id/search"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        app:queryHint="Search...">
-    </android.support.v7.widget.SearchView>
+        android:layout_height="60dp"
+        android:hint="@string/Search"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:background="@android:color/white"
+        android:inputType="textCapCharacters"
+        android:paddingStart="@dimen/padding_start"
+        android:paddingLeft="@dimen/padding_start"
+        android:paddingEnd="@dimen/padding_start"
+        android:paddingRight="@dimen/padding_start"
+        />
 
     <ListView
-        android:layout_below="@+id/search"
+        android:id="@+id/list_word"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:id="@+id/list_word"
+        android:layout_below="@+id/search"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         tools:ignore="RtlHardcoded" />
+
     <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-394025609942544/6300978111">
         <!--ads:adUnitId="ca-app-pub-7409792334263349/4695556899"-->

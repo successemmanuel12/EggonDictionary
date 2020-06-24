@@ -8,10 +8,10 @@
         app:showAsAction="never" />
     <item android:id="@+id/action_contactUs"
         android:orderInCategory="1"
-        android:title="Mail Us Suggestions"
+        android:title="@string/mail_us_suggestions"
         app:showAsAction="never"/>
     <item android:id="@+id/action_word"
         android:orderInCategory="2"
-        android:title="Word Of The Day"
+        android:title="@string/word_of_the_day"
         app:showAsAction="never"/>
 </menu>

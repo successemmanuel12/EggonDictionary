@@ -2,9 +2,9 @@ package com.successemmanuel.eggondictionary;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,7 +18,7 @@ public class DefinitionActivity extends AppCompatActivity {
     TextView wordTxt;
     TextView typeTxt;
     TextView definitionTxt;
-    TextView exampleTxt;
+    TextView exampleTxt, mTextView;
     AdView mAdView;
 
 
@@ -26,10 +26,10 @@ public class DefinitionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_definition);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -37,10 +37,11 @@ public class DefinitionActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        wordTxt = (TextView)findViewById(R.id.text_selected);
-        typeTxt = (TextView)findViewById(R.id.text_type);
-        definitionTxt = (TextView)findViewById(R.id.text_meaning);
-        exampleTxt = (TextView) findViewById(R.id.text_example);
+        wordTxt = findViewById(R.id.text_selected);
+        typeTxt = findViewById(R.id.text_type);
+        definitionTxt = findViewById(R.id.text_meaning);
+        exampleTxt = findViewById(R.id.text_example);
+        mTextView = findViewById(R.id.text_ex);
 
         Intent i = this.getIntent();
         final String word= i.getExtras().getString("WORD_KEY");

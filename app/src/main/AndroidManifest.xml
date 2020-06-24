@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.successemmanuel.eggondictionary">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/elag"
@@ -30,7 +32,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
         </activity>
-        <activity android:name=".WordOfTheDay" />
+        <activity
+            android:name=".WordOfTheDay"
+            android:parentActivityName=".DictionaryMain">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
+        </activity>
         <activity
             android:name=".DefinitionActivity"
             android:label="@string/title_activity_definition"
@@ -58,7 +66,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.successemmanuel.eggondictionary.DictionaryMain" />
         </activity>
-        <activity android:name=".Word"></activity>
+        <activity
+            android:name=".Word"
+            android:parentActivityName=".FavoriteWords">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.successemmanuel.eggondictionary.FavoriteWords" />
+        </activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/banner_ad_unit_id" />

@@ -109,6 +109,10 @@
     <string name="history_body2">The exact classification of the Eggon language has been in dispute and it can be said that this issue remains unresolved. Eggon was first classified by Greenberg (1963) as a Plateau language in his group 5, together with Nungu and Yeskwa. In the revision prepared by Carl Hoffman published in Hansford et al. (1976) a Benue group was set up that combined Greenbergs Plateau 5 and 7 with Jukunoid. The new subgrouping
         classified Eggon together with Nungu, Ake and Jidda-Abu. The concept came from the lexicostatistical studies of Shimizu (1975) who argued against the unity of Greenberg Plateau and proposed the Benue group. However, in 1983, Gerhardt published a convincing rebuttal of Shimizu arguments. The version of classification of Plateau languages in Gerhardt (1989) adds Yashi to the Eggon subgroup but removes the links with Benue i.e. Tarok and the Jukunoid languages.\n \nThe non-specialist can deduce from these debates that the matter is by no means settled. Much of the reason for this uncertainty is the poor quality of data on so many of the languages in question. All writers seem to agree on the nearest affiliated languages but to dispute the broader connections. All the other languages are spoken in extremely small communities and indeed, in some cases,
         no new data has been published since Meek recorded wordlists in the 1920s.\n</string>
+    <string name="word">Word</string>
+    <string name="mail_us_suggestions">Mail Us Suggestions</string>
+    <string name="word_of_the_day">Word Of The Day</string>
+    <string name="delete_word">Delete Word</string>
 
 </resources>
 
