@@ -20,6 +20,7 @@ import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -43,6 +44,8 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
         setContentView(R.layout.activity_dictionary_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
         MobileAds.initialize(this, "@strings/banner_ad_unit_id");
 
@@ -146,9 +149,9 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
         if (id == R.id.action_settings) {
             Intent intent = new Intent(getApplicationContext(),Settings.class);
             startActivity(intent);
-        }else if (id == R.id.action_word){
-            Intent intent = new Intent(getApplicationContext(),WordOfTheDay.class);
-            startActivity(intent);
+//        }else if (id == R.id.action_word){
+//            Intent intent = new Intent(getApplicationContext(),WordOfTheDay.class);
+//            startActivity(intent);
         }else if (id == R.id.action_contactUs) {
             Intent intent = null, chooser = null;
             intent = new Intent(Intent.ACTION_SEND);
@@ -175,9 +178,9 @@ public class DictionaryMain extends AppCompatActivity implements NavigationView.
             startActivity(intent);
         } else if (id == R.id.nav_pro) {
 
-        } else if (id == R.id.nav_word) {
-            Intent intent = new Intent(getApplicationContext(),WordOfTheDay.class);
-            startActivity(intent);
+//        } else if (id == R.id.nav_word) {
+//            Intent intent = new Intent(getApplicationContext(),WordOfTheDay.class);
+//            startActivity(intent);
 
         } else if (id == R.id.nav_rateUs) {
             try{

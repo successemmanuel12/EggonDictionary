@@ -74,7 +74,7 @@ public class CustomAdapter extends BaseAdapter implements Filterable{
         //typeTxt.setText(type);
         //definitionTxt.setText(definition);
 
-        final int pos = position;
+        //final int pos = position;
 
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override

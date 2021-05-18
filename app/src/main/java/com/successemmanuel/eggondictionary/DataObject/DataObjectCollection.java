@@ -5,17 +5,17 @@ import java.util.ArrayList;
 public class DataObjectCollection {
 
     public static ArrayList<DataObject> getDataObjects() {
-     ArrayList<DataObject> dataCollection = new ArrayList<>();
+        ArrayList<DataObject> dataCollection = new ArrayList<>();
         DataObject dataObject = null;
 
-      // ADD DATA TO COLLECTION
+        // ADD DATA TO COLLECTION
         dataObject = new DataObject();
         dataObject.setWord("a ku ashiki");
         dataObject.setType("pronoun.");
         dataObject.setDefinition("Male name et. he gathers and hoards up");
         dataCollection.add(dataObject);
 
-       dataObject = new DataObject();
+        dataObject = new DataObject();
         dataObject.setWord("-àbá ògbyì");
         dataObject.setType("noun");
         dataObject.setDefinition("old person");
@@ -320,267 +320,267 @@ public class DataObjectCollection {
         dataObject.setDefinition("useless person");
         dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àdzedzi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("goodness\nalso adzi");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àdzedzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("goodness\nalso adzi");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("adzi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("goodness, also adzedzi");
-     dataObject.setExample("a wa dzi it is good lit. it with goodness cf. dzedzi");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("adzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("goodness, also adzedzi");
+        dataObject.setExample("a wa dzi it is good lit. it with goodness cf. dzedzi");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àdzum");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("father-in-law, mother-in-law");
-     dataObject.setExample("Alizaga azimo");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àdzum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("father-in-law, mother-in-law");
+        dataObject.setExample("Alizaga azimo");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àdzní");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("red camwood");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àdzní");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("red camwood");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àdzò(dzò)");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("earthen pan\npotsherd");
-     dataObject.setExample("àdzò zga ovro: put pan on fire");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àdzò(dzò)");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("earthen pan\npotsherd");
+        dataObject.setExample("àdzò zga ovro: put pan on fire");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("ààdzodzo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("earthen pan");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("ààdzodzo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("earthen pan");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àf(y)é, àhyé");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("male goat");
-     dataObject.setExample("Bekana afírí");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àf(y)é, àhyé");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("male goat");
+        dataObject.setExample("Bekana afírí");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("afige ogbu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("lark");
-     dataObject.setExample("Hausa shuda mai labar");
-     dataObject.setExample("afiki ogbu (ngobi)");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("afige ogbu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("lark");
+        dataObject.setExample("Hausa shuda mai labar");
+        dataObject.setExample("afiki ogbu (ngobi)");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àfóm");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("dust");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àfóm");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("dust");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("Afubu");
-     dataObject.setType("pronoun, noun.");
-     dataObject.setDefinition("medicine with which a murderer has to be washed/purged or his stomach swells up and he die");
-     dataObject.setExample("ma ngola Afubu they wash with Afubu");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("Afubu");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("medicine with which a murderer has to be washed/purged or his stomach swells up and he die");
+        dataObject.setExample("ma ngola Afubu they wash with Afubu");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àfré");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("eggplan");
-     dataObject.setExample("garden egg, gauta (Hausa), tafra Alizaga");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àfré");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("eggplan");
+        dataObject.setExample("garden egg, gauta (Hausa), tafra Alizaga");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("afro");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("soil used by girls to make hands red");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("afro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("soil used by girls to make hands red");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("afón");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("double iron clapperless bell");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("afón");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("double iron clapperless bell");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("afye");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to sit with knees drawn up and arms around knees (not permitted to small boys as it is said to prevent growth)");
-     dataObject.setExample("adzu afye, a gana mbò: he is sitting huddled up, but he has not yet reached the age for it");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("afye");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to sit with knees drawn up and arms around knees (not permitted to small boys as it is said to prevent growth)");
+        dataObject.setExample("adzu afye, a gana mbò: he is sitting huddled up, but he has not yet reached the age for it");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("afo kòfoká");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("magic made to kill in revenge\nstone is used, also Euphorbia, placed at the door of the victim's house");
-     dataObject.setExample("a fòfoká atyen he made magic to kill someone");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("afo kòfoká");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("magic made to kill in revenge\nstone is used, also Euphorbia, placed at the door of the victim's house");
+        dataObject.setExample("a fòfoká atyen he made magic to kill someone");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àfù");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("puff adder");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àfù");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("puff adder");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("afi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("judgement or kafi");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("afi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("judgement or kafi");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("aga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("new idea, thought or an unexpected thing");
-     dataObject.setExample("a nyín aga he did an unexpected thing\nka bana kpo aga he just look at this surprising thing he has done");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("aga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("new idea, thought or an unexpected thing");
+        dataObject.setExample("a nyín aga he did an unexpected thing\nka bana kpo aga he just look at this surprising thing he has done");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agala");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("grumble");
-     dataObject.setExample("a nyé agala he grumbles");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("grumble");
+        dataObject.setExample("a nyé agala he grumbles");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agba");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("pumpkin");
-     dataObject.setExample("agba can also be an exclamation e.g hello! Welcome!");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agba");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("pumpkin");
+        dataObject.setExample("agba can also be an exclamation e.g hello! Welcome!");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbadu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("box\nalso àkpàdu");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbadu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("box\nalso àkpàdu");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbán ato");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("back yard");
-     dataObject.setExample("gi w agban ato atyetyen we have one back yard i.e. we are neighbours");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbán ato");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("back yard");
+        dataObject.setExample("gi w agban ato atyetyen we have one back yard i.e. we are neighbours");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgbàrà èzhim");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("disintegrating rock hollow rock");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgbàrà èzhim");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("disintegrating rock hollow rock");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgbí");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("farm, field");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgbí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("farm, field");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbŋmre");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("fat");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbŋmre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fat");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgbró");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("ball or any spherical object");
-     dataObject.setExample("ezhba efu agbro: the shea is fruiting");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgbró");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("ball or any spherical object");
+        dataObject.setExample("ezhba efu agbro: the shea is fruiting");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgbro");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("gbm lump");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgbro");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("lump");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbro");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("banana,plantain");
-     dataObject.setExample("Angbashim agboho, Alizaga agburu");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbro");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("banana,plantain");
+        dataObject.setExample("Angbashim agboho, Alizaga agburu");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbro ivi");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("pawpaw fruit");
-     dataObject.setExample("ivi ebme Bekana aboro");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbro ivi");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("pawpaw fruit");
+        dataObject.setExample("ivi ebme Bekana aboro");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("Agbro");
-     dataObject.setType("pronoun, noun.");
-     dataObject.setDefinition("name of the S.U.M. station at Wana which is on or near the site of an old town of that name formerly inhabited by the people now at Wanjibi");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("Agbro");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("name of the S.U.M. station at Wana which is on or near the site of an old town of that name formerly inhabited by the people now at Wanjibi");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbu");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("rizga, Plectranthus esculentus");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbu");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("rizga, Plectranthus esculentus");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbu ivi");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("groundnuts, large variety");
-     dataObject.setExample("groundnuts with goitre");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbu arogo ivi");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("groundnuts, large variety");
+        dataObject.setExample("groundnuts with goitre");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbu ashele");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("umuku");
-     dataObject.setExample("Solenostemon rotundifolius");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbu ashele");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("umuku");
+        dataObject.setExample("Solenostemon rotundifolius");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agbù ògro");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("invalidity");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agbù ògro");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("invalidity");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgèn");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("hunt");
-     dataObject.setExample("gi yi àgèn ekala we are going to hunt monkeys");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgèn");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("hunt");
+        dataObject.setExample("gi yi àgèn ekala we are going to hunt monkeys");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("ágì");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("chin");
-     dataObject.setExample("aretyen a kpu agi ban a ba egbu ekpiki ashe atyen If a person dies, his chin enters a woman and he is reborn");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("ágì");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("chin");
+        dataObject.setExample("aretyen a kpu agi ban a ba egbu ekpiki ashe atyen If a person dies, his chin enters a woman and he is reborn");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agi}iso");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("crab, or agen ekso (?)");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agi}iso");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("crab, or agen ekso (?)");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgme iyi");
-     dataObject.setType("verb, pronoun.");
-     dataObject.setDefinition("big eyes");
-     dataObject.setExample("gme to be fat");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgme iyi");
+        dataObject.setType("verb, pronoun.");
+        dataObject.setDefinition("big eyes");
+        dataObject.setExample("gme to be fat");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("àgóló");
-     dataObject.setType("exclamation.");
-     dataObject.setDefinition("Used in greeting when a man meets another with his name");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("àgóló");
+        dataObject.setType("exclamation.");
+        dataObject.setDefinition("Used in greeting when a man meets another with his name");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("agombé");
-     dataObject.setType(" noun.");
-     dataObject.setDefinition("kid, or a-wyén agombe");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("agombé");
+        dataObject.setType(" noun.");
+        dataObject.setDefinition("kid, or a-wyén agombe");
+        dataCollection.add(dataObject);
 
         dataObject = new DataObject();
         dataObject.setWord("agre okyen");
@@ -607,6 +607,1683 @@ public class DataObjectCollection {
         dataObject.setWord("agulu (agbi)");
         dataObject.setType("noun.");
         dataObject.setDefinition("guinea-corn,sorghum");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("agulu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cooked beans or grains");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("agùlù ebrò");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("maize");
+        dataObject.setExample("agulu sorghum ebro ? see obro\nagulu a sè èbrò atà: the stalk has two cobs i.e. corn in a parcel\nse puts out ata because the cob is lying\nDakana kuburu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àgum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("medicine");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aguya");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("ta aguya: to sow and cultivate acha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-gwàgwá");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("duck");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("agyé");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("horsetail switch");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("agyere enyema");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("horse tail");
+        dataObject.setExample("or agyehe enyema\nagye: tail + yere: tail\nagye Ngubi dialect (see into this word)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àgzu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mat for shutting door");
+        dataObject.setExample("Hausa zana\nor àzzu\nAlizaga gugzu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("how many?");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahe");
+        dataObject.setType("preposition.");
+        dataObject.setDefinition("here");
+        dataObject.setExample("Marefin ahe a ba\na wo e ka he: it is so alright\na wa he: it is here\na wo a he\na he lo: this is it");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àhe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sky");
+        dataObject.setExample("also arugme\nAlizaga kaha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àhé");
+        dataObject.setType("adjective.");
+        dataObject.setDefinition("new");
+        dataObject.setExample("riga a lahe a new robe");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahiílí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("twins");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ahogbren");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("God");
+        dataObject.setExample("also Ahugban");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("áhòlò");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("frame of roof");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("áhòlò igbyi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("leopard trap of clay with wooden trapdoor");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahon mahon");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("another");
+        dataObject.setExample("also someone else\nsomeone");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("stream");
+        dataObject.setExample("also eholo, ohon\nrare\nyi ahon o fu ami: go to the stream and scoop water\nma kpo apa ohon: they bridge the stream");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("powder");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("pulling");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ahugban");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("God\nalso Ahogbren");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ajigéku");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("woman's name");
+        dataObject.setExample("she went to a house to mourn for a death, and there she was born");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àjgé");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("beer");
+        dataObject.setExample("Angbashim azhiga\nAlizaga ajigha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ájìgè");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bunch of oil palm fruit, unripe");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-kɔsù");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("basket made of strips of bamboo");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpashi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cloud");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkpghú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("leather haversack");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkpkí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("stomachs");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpolotyen");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("something");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpokayi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mirror et. parchment in which you see your eyes");
+        dataObject.setExample("me keme akpokayi: I saw myself in a mirror");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpololo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("person who believes in traditional religion");
+        dataObject.setExample("person who engages in curing rituals");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkpúkpùkhú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("rocky peaks");
+        dataObject.setExample("hills");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpun");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("leather haversack");
+        dataObject.setExample("also. ázhùgùlú");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkpúshi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("skin used as bag and slung from shoulder by two forelegs");
+        dataObject.setExample("àkpa skin + ushì load");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpuzhàgà");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("large black ant with hunched back");
+        dataObject.setExample("Hausa tururuwa");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("áksù");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("straw");
+        dataObject.setExample("áksù alem: acha straw");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkù akuku");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hut");
+        dataObject.setExample("Alizaga koko");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akodzum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("where food is prepared with bin in centre");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkufa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("inside of hut roof");
+        dataObject.setExample("fi akufa: apex of inside a roof\nota oka akufa: the bow is suspended from the roof");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkufó");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("partridge");
+        dataObject.setExample("francolin");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-kufu (a-/ku-)");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("palm nut");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkùfú ákúfú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bone");
+        dataObject.setExample("Alizaga mbaku");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkùfú ákúfú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bone");
+        dataObject.setExample("Alizaga mbaku");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small fly that sucks blood");
+        dataObject.setExample("Alizaga akum ezgo");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Akumbi Aha");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("Wei Wei Hills");
+        dataObject.setExample("the hill which is double\nalso Akun ambi aha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akun");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hill");
+        dataObject.setExample("a section of Ngobi");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Akun Anza");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("hill");
+        dataObject.setExample("stream west of Wana mission station");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpadudu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tadpole");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akoŋ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("eagle");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aksu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("eagle or asu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkhwá");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Egyptian cobra");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkhá-");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("maternal grandfather\n maternal uncles");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akase");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("broom");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkàlà");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("veldt\nbush\nwilderness");
+        dataObject.setExample("Alizaga kekala");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àká");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fan palm");
+        dataObject.setExample("Borassus aethiopicum");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akimazba");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("my friend or akimadzaba");
+        dataObject.setExample("adzaba beautiful\n akyena friend + mazaba beautiful");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akìrì");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("blanket");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aklizi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cricket");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ako");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("it is finished");
+        dataObject.setExample("spelt akho in primer\nAlizaga ako");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ákó");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("leopard trap");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkó");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("baboon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akòm");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("kenaf");
+        dataObject.setExample("amun akon: the fibre");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akón");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("eagle");
+        dataObject.setExample("amun akon: the fibre");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àkón");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sword");
+        dataObject.setExample("àkoŋ èngùba");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpá");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("skin");
+        dataObject.setExample("Alizaga kpakpa");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpaahe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("clouds\nparchment of heaven");
+        dataObject.setExample("or akpa ishi\nAlizaga kokpa kha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpa ero");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("scar");
+        dataObject.setExample("Alizaga takpa oro");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpa malibi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("paper");
+        dataObject.setExample("skin of luck");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpikí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("stomach");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpokayi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mirror");
+        dataObject.setExample("it makes a beholding of the eyes\nAlizaga kakariye");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpolatyen");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("something");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpolatyene mbo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("nothing");
+        dataObject.setExample("a he + kpo made + la which +tyen one +mbo: not thing");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpolo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("he makes it");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpu");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to be lost");
+        dataObject.setExample("a ta ozhen akpu: he missed the road, lost his way to spoil\na ta ra kpu: he spoilt the dance\na tengala kpu: he spoilt the writing, made an error");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akpuko");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("crack");
+        dataObject.setExample("a gbu akpuko: it is cracked");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-kù");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("room");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akun");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hill, mountain");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akyele");
+        dataObject.setType("adjective.");
+        dataObject.setDefinition("white");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akyẽa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("friend");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Alaku");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("man's name");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Alambaga");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("a town S.W. of Wana");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Alandem");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("town near Wulko");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("alem");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fonio");
+        dataObject.setExample("acha unhusked or the plant");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("algori");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("food");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aligi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("palm eagle");
+        dataObject.setExample("the following verse is said about it;\nfa bono ne, ne fa me don: dish out some of yours for me and I will dish out some of mine and give it to you");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("alim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("man, fellow, male");
+        dataObject.setExample("form of address\nor are alam\nBekana lanimo\nAngbashim anim");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Alukuru");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("the town West of Enebi of Wanjibi");
+        dataObject.setExample("or Alukulu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Alushi a-makpa mo-");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("town 5 km. west of Akwanga\nor Aloce");
+        dataObject.setExample("Hausa\nalso ango\nalso osan");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amago");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("monkey, patas monkey");
+        dataObject.setExample("ekala, etsim\nused for a big individual red monkey");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amangolo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("husks of acha or iburu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambala");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("after, behind");
+        dataObject.setExample("Osan a wa ga ambala Osan is behind\na lim ambala he follows behind\nambala he nga after that");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambila eligi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("white grub in palm trunks\neaten by Mada");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambila");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("greed");
+        dataObject.setExample("a kpo ambila: he is greedy");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-mbla");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("plank");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-mbí e-mbí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("feces, excrement, manure, dung, shit");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambi aha");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("double, bifurcated, forked, dung, shit");
+        dataObject.setExample("ambi aha akyi: forked tree\nekun ambi aha: the double Wei Wei peaks\nagbro a kpo ambi aha: a double banana");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambí kpajú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Mussaenda elegans\nscrambling shrub with velvety red flowers and edible berries");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-mbímbzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("charcoal");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambo");
+        dataObject.setType("conjunction.");
+        dataObject.setDefinition("also");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambor");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sand");
+        dataObject.setExample("also ambur\nAlizaga tambur");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("pup");
+        dataObject.setExample("or awumbu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("leprosy");
+        dataObject.setExample("a shen ambugu: he has leprosy");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("clod, lump, brick");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambugu kpashoshon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("earthworm casts");
+        dataObject.setDefinition("also ambugu ashoshon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambulu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hole");
+        dataObject.setDefinition("eshen e vuva ambulu: the pot has a hole\nambulu akyi: hollow in tree trunk");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambumbwi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("flower, bloom, petal");
+        dataObject.setDefinition("Angbashim- amumu\nmbumbwi white man.");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-mbùtú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hat");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ambye");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small termites");
+        dataObject.setExample("or ambyi\nambye anzaku: the termites are building a nest");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-mɓátku evgo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("finger nail");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-mɓèbí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("pepper");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ame");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("my home");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amem");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sandfly or amime");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àmgbakoŋ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("kite");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ami");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("water");
+        dataObject.setExample("ami efin: black water i.e. pure water\nAlizaga ami laton: pure water");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ami ekum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("washings from a pot");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amimzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("soot");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wrestling game");
+        dataObject.setExample("gi ta amo: let us play the wrestling game");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amom");
+        dataObject.setType("adjective.");
+        dataObject.setDefinition("dry");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amvushe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("large sluggish lizard");
+        dataObject.setExample("or anvuashe, anvashe, amvoshe, anvanzhe, amvoshe\nIt lives in cavities in the rocks. The Mada believe that its bite is fatal\nAlizaga amvulashe");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amwé");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("expression of uncertainty, perhaps");
+        dataObject.setExample("odzumbo Alaku a ba nye amwé: perhaps Alaku will come today");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amwe");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to be dirty");
+        dataObject.setExample("amwe ekim it is dirty lit. it dirts dirt");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("shade, shadow, spirit, soul");
+        dataObject.setExample("amwe ekim it is dirty lit. it dirts dirt");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amu ode");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("house-martin");
+        dataObject.setExample("spirit of house (it is not killed or eaten)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amva");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fig tree");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fibre");
+        dataObject.setExample("amum akon: fibre of kenaf");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-mvbo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("animal fat, lard, suet");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amvum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hawk");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("amze");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to build");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Anabi");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("town just south of the rest house at Wanjibi");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anbangálá");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("plank,board");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anbye");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Plantain eater");
+        dataObject.setExample("Turacus corythaix\nThe crimson quill feathers used for charms\nEquivalent to the name \"Jatau\" and applied red (fair) people");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anbye");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("African tulip tree");
+        dataObject.setExample("Spathodea campanulata");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("andakopo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("elder, ruler, old man, great man, master");
+        dataObject.setExample("Alizaga anda man + ekopo greatness authority");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àndàsé");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("gravel, sand");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ande ondega");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("blacksmith, or ande kondega");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ande tse");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("younger brother or sister");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("andu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("ox");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("andum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("epileptic fit");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("andyin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wealth");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("andyen");
+        dataObject.setType("preposition.");
+        dataObject.setDefinition("on top");
+        dataObject.setExample("or anjen, angye\nabove\nup\nor ondyen or kanjen or ansin or andyen cf. engi cf. nja.");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Anekó");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("place where the chief's compound is at Wana");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angam");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("termite");
+        dataObject.setExample("also arurugu, arucuku, edeŋ\nFlying termite sp. said to cause death if eaten.\nEdible variety of flying termite\nor angum");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angam");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("file made of sorghum stalks");
+        dataObject.setExample("or langam");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angam");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("opportunity");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anganga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fan palm");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("akaa-ngba");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wing");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("droppings of sheep, goats, mice");
+        dataObject.setExample("eben a ta angbala: the goat made droppings");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bench, wooden plank");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbán");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("money");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbàn");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("iron");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Angbashu");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("town sometimes wrongly called Angwar Shuru");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cheek");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("urine");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angbungbuvu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("yaws");
+        dataObject.setExample("Kudu a gbu angbungbuvu: Kudu has yaws");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angi}ina");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("yaws");
+        dataObject.setExample("crow (trilled 'r') or angilina\nBekana aridabwa");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ango");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("Shabu");
+        dataObject.setExample("a town 5 miles. north of Lafia");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ango (O-/mo-)");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("Hausa");
+        dataObject.setExample("Angbashin angwai\nakne Ango: a common man's name\n" +
+                "he fled from the Hausas");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ango a ba");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("sensitive plant");
+        dataObject.setExample("Biophytum sensitivum\n" +
+                "lit. ‘the Hausa are coming’. Boys pull up the plant and as the leaves close in they say Ango a ba? Ango a ba? representing slave raiders closing in round their victims");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Angon");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("Place where Ekpon people farm on eastern escarpment between Ekpon and Ogboshon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bulrush millet");
+        dataObject.setExample("gero\nPennisetum typhoideum\nMatatuwa angara");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fibre,rope,thread");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("angum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("yawn");
+        dataObject.setExample("a ta angum he yawns");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anguvu,angubu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bark of tree");
+        dataObject.setExample("shell of groundnut or egg peel");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àngyú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("yam");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ahwpe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small termite");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anjige");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("oil palm frond");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anjím ogbu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("lightening");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anju");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("yam");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anju anváshè");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("arum lily with dark flesh-coloured flowers with smell of carrion");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anjugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small granary used for millet and other cereals smaller than ebon, usually used for acha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anme");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("urine\nor angbon\nami anme\nami angbon");
+        dataObject.setExample("me yi so ami anme: I am going to urinate");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anme");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("large flat rock");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Anme Bashanata");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("large dome of a rock south of Walon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anna");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mother");
+        dataObject.setExample("annana his mother");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("annana-");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("his brother");
+        dataObject.setExample("annana ba anna-his brother by the same mother");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("annime");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("my brother, or anneme");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("annigi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("our brother");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("annoŋo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("your brother");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ánnungu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("our mother");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anumese");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("aloe used in arrow poison\nStrophanthus?\nor alumese");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anva");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fig");
+        dataObject.setExample("several varieties with large leaves");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvan");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mischief,waste");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvigan iyi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("pus in corner of the eye");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvigatiki");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("flat brown millipede");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvigitiki");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bush,shrub,scrub");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvive");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("spider\nalso anvebe\ncobweb\nringworm\ndry lips or throat");
+        dataObject.setExample("ogbuga teten anyu a ta anvivé: when the wind blows from the east your mouth dries");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("black kite");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anvuvo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("animal fat\nor anvubo");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anwo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("rock hyrax");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ànyè");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("today");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anyé");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("liver");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anyema");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("anger, swelling up");
+        dataObject.setExample("olum a kpo anyema: he is angry");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anyu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("what, how");
+        dataObject.setExample("ameekpo ányu me kp ányu ke: what shall I do? me be kpanuyu\na wányu what is it?");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Anyu");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("river south of hills\nor Eholo anyu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anyu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mouth, language");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anyu eso");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("comb of honey, wax");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anyún");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("big giant");
+        dataObject.setExample("anyun asu a huge dog");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anze");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("part of shoulder near neck");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzi anzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("East\nor azzi");
+        dataObject.setExample("owanzi anzi Sabida: fruits red edible berry");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ánzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("shame, disgrace");
+        dataObject.setExample("ta addon anzi mbo: don't disgrace your father");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("chain\nor anzum");
+        dataObject.setExample("ta addon anzi mbo: don't disgrace your father");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small weed used in soup\nGynura cernua");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzhin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("clay used for building");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzhigí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("owl");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ánzho");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tale or story");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-nzhò");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cloth");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzò");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Red-flowering silk cotton tree");
+        dataObject.setExample("Bombax buonoponenze\nsee ekum anzo");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("anzu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thrashing\nused with the verb yela");
+        dataObject.setExample("a yela na anzu: he thrashed him\n" +
+                "anzu a vulo nzenze: the thrashing is painful");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aŋwo");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("you");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ápà");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bridge");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("apete");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("battle axe, or apiti");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àpfú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("suckers and foliage which spring up in cultivated fields");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-pla");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mat made from raffia woven in strips and sewn together");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("appà");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("large pumpkin");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("apre abugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("palm of hand");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("apropre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Alogani: white man");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("apu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("rest house");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("apye or api");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Wanjibi ground nuts");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arityuku");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("edible flying termites.");
+        dataObject.setExample("Perhaps the same as ede eden but when they emerge in the morning they are called arityuku");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arúrugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("purse");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arun");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to be sweet, to sweeten");
+        dataObject.setExample("eso arun gishi: he sweetens my heart very much i.e. I love him\n" +
+                "arun ishi gishi he is popular");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("to charge\nto accuse");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arugú");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("loin-cloth");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àrà");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("dance");
+        dataObject.setExample("a ta ra kpu: he can't dance\ngi yi zhig ara: let us dance\nAlizaga angya di zhiga angya: we dance");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("áraga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("rock pool");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aralem");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("husband, male");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("are");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("person, people, man, earth man");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-rewhin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("man, earth man");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("are embaga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("witch");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aren");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("chief, leader");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("are oshala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Saviour");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aren eden");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("queen termite");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("a-retyen");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("someone\na certain man\nalso arekyen");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arika");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("ring");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arogo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("animal throat");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arogo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("goitre");
+        dataObject.setExample("a gbu arogo: he has goitre");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("arogo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("someone, anyone");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aru");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thread");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("asakpa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("entrance hut");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Asalokro");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("man's name");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("jumping frog");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashẽ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("high");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ashe Anme");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("common woman's name born during good acca harvest");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ashim");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("ancestor masquerade");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashowa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("beads");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("aska");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fibre left (after palm oil is extracted)");
+        dataObject.setExample("agulu a pum aska: the guinea corn is forming grain\n" +
+                "aska: may be the glumes\nasale: for short");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("à-ssí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thief");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("asuku");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("laterite gravel");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("asusku");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("husks of guinea corn");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashaumagala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("chameleon (Alizaga)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("woman\nAlizaga akye");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashela");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("jumping frog\nit is eaten by the people also called\nagyere or asha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashele");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fireplace");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("yaws");
+        dataObject.setExample("a gbu ashe: he has yaws");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("beam made by splitting palm trunk");
+        dataObject.setExample("A man was farming and a woman from Ogen came with what professed to be an oracle and told him not to farm famine followed");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("apu ondaga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bellows of blacksmith");
+        dataObject.setExample("blacksmith ondaga forge ashe");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cowpea, early maturing");
+        dataObject.setExample("Vigna unguiculata\nor ashuvm\nHausa waken damana");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashi oshi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("donkey");
+        dataObject.setExample("or eshi oshi or shi oshi\nshi carry + oshi load");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ashim Abi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("section of Ekpon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ashim Okme");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("spirit represented by a bracket like mud projection on a wall with 7 little pillars in a row on it");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ashishi agulu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("maize cob");
+        dataObject.setExample("contrast donkey ashioshi\n" +
+                "contrast obro agulu a cob with grains on it");
         dataCollection.add(dataObject);
 
         dataObject = new DataObject();
@@ -1088,962 +2765,962 @@ public class DataObjectCollection {
         dataObject.setExample("a tyu ebele: she got married\na ba ebela: she came for marriage\na ge ebela: she went to get married\nor ebela");
         dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("eben");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("goat (female)\nor ebon");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("èbíèkpŋmrè");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("butter beans");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebive");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("spider");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebmon ebon");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("granary");
-     dataObject.setExample("ebmon alem: the granary in the centre of a house for cereals\nBekana tabo o\nOganzhi embo");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebro");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("wild custard apple");
-     dataObject.setExample("Annona senegalensis\nagulu ebro maize\nAlizaga eburu\nOganzhi ebuhu");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebro elaba");
-     dataObject.setType("noun, pronoun.");
-     dataObject.setDefinition("fez (Alizaga)\n elaba red");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebuga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("killing, murder, war\nsee e-mbgù");
-     dataObject.setExample("Osan pa la Eggon ma kpo ebuga: there was war between Lafia and Eggon people");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebum");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("breast or milk\nor ebim");
-     dataObject.setExample("Alizaga lembem, sausage tree, Kigelia aethiopica, or ebim\net. breast\nflowers used by women at Angbashu as medicine");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebwa");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("pair of pincers");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebzi akum");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("silk cotton tree\nkapok\nCeiba pentandra");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebziga");
-     dataObject.setType("pronoun, noun.");
-     dataObject.setDefinition("big Wana market");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ebzo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("wild cat");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eda");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("fishing net, wisdom, cunning ");
-     dataObject.setExample("a ndba eda ata: he cast a net\nstone trap for lizards, consisting of a stone held up by a stick and released when the bait is pulled \nma zhin eda: they set a trap\na we da mbo: he is not wise\nkpo lo deda: do it wisely, do it carefully");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edivi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("fence-cactus\nEuphorbia kamerunica, or edibi");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edjimedyim");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("black snake\nAlizaga eduvm");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edogo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("ground squirrel");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edugo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("shea-nut");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edugu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("kind, sort, type");
-     dataObject.setExample("ishi edugu he lo: what kind of thing is this?\nedugu he lo: what do you call it?");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edun");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("rock pool\ncf. arauga");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eduzu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("housefly");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edza");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("lead, silver");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzefin");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("black metal cf. Hausa \"bakin\" Karfe\ncf. amefin pure water");
-     dataObject.setExample("Farin Ruwa: Falls are called Edza because of their silvery appearance");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("thorn");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzi");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("luck ");
-     dataObject.setExample("edzi a be mi gishi: I am very lucky");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzi nyin");
-     dataObject.setType("noun, pronoun.");
-     dataObject.setDefinition("something wonderful (has happened)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzibi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("thousand");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzin");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("mosquito, or ezin: termites");
-     dataObject.setExample("the winged ones are eaten");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("wooden mortar");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("edzu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("twisted metal bracelet, black plum\nVitex doniana");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("effi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("tick, or effivi");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("effita");
-     dataObject.setType("noun, pronoun.");
-     dataObject.setDefinition("to be cloudy");
-     dataObject.setExample("effi thickness + ta to be in place\ncf. adun ota or andun ot");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("efiyangbu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("female lizard cf. aga");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("efi akufa");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("apex of the inside of a roof");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("efin");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("blue, black, ignorance");
-     dataObject.setExample("okyen ofin: blue cloth\nno yi odzu efin ayika: are you still as ignorant as this?");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("efi(vi)");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("odour, scent, smell");
-     dataObject.setExample("a shika efivi gishi: it has a strong scent");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("efpu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("jealousy\nofubu (Alizaga)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egala");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("nose, steep place");
-     dataObject.setExample("ozhe a wo egala: the road is steep");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egan");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("evidence, testimony");
-     dataObject.setExample("arefin adzigi egen- the man bore witness");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egba");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("jump, hurrying, voice, speech, babbling");
-     dataObject.setExample("a ta egba: he jumped cf. enzi\na kpo legba: he babbles");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egbaga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("hyena");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egban ");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("thick, or legban");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("Egbe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("throat");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egbili ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("wrestling game");
-     dataObject.setExample("ma te gbili: they play the wrestling game. The cry during play\nis amo amo hence gi ta mo-let: us play the wrestling game");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egbon");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("bsale (from gbon to buy)");
-     dataObject.setExample("kp egbon: to make a sale to trade\nri egbon: to eat a sale- to make a profit");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egbre!");
-     dataObject.setType("exclamation.");
-     dataObject.setDefinition("wonder- an expression of amazement at something new\negbregbre");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egbre ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("wages");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egbye ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("fibrous strips from palm leaves used in roofing");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ege");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("salt, place of refuge");
-     dataObject.setExample("me idzigi ege ba he: I emerged from a place and came here\napparently means Had I known I would be caught I would not have come out of hiding\nAlizaga aga");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egen");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("cross");
-     dataObject.setExample("ege ozhe a kpulo egen: a road crosses it (another road)\nbracelet knife worn on hand for archery\nHausa kanga\nor egne, Wanjibi akme, Alizaga Manga");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egibe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("Fermented extract of bark of Bridelia ferruginea used to harden floors\nor edyibi");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egimo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("breath");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("Ègón");
-     dataObject.setType("pronoun, noun.");
-     dataObject.setDefinition("Eggon people, language and country");
-     dataObject.setExample("abegon: single individual\nmoa ègón: people in general");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eguba");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("number");
-     dataObject.setExample("a ri eshuko eguba eha- he is called by two names");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egze");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("bulrush millet");
-     dataObject.setExample("corresponding to Hausa maiwa\nPennisetum sp.");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egzo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("animal horn, car-horn\ncf. ogzo");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egzo etifa");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("horn of a small antelope");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("egzu enema");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("linseed oil");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eh hwe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("grey hairs");
-     dataObject.setExample("adzigi eh hwe: he is getting grey");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eha");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("divination");
-     dataObject.setExample("a kolo eha: he has gone to the diviner");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehe egbi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("left-over food\nalso ehe egbyi fruit");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("cereal porridge");
-     dataObject.setExample("Alizaga lehe, moon (Alizaga)\ncf. oha");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eher");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("unsatisfactorily, unsuitably, left-handedly");
-     dataObject.setExample("no lu me alo leher: you said an unsatisfactory thing to me\nobugo e: her left hand");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehili");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("testicles");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehimi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("foundation, agreement, covenant, promise");
-     dataObject.setExample("a nyun ehim ba na da na sule: he made a promise to give him a shilling\na him odolo ba na da na sule: he promised him a shilling");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehola");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("cave");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehon");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("tree covered with red flowers in December\nFirmiana Barteri");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehre");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("bottle");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehrwe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("shoulder, cf. anze\nAlizaga ehura");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ehwala ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("stream");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eka");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("thus");
-     dataObject.setExample("a we ka: he like this it is so just so\neka he nga and thus meanness, covetousness\na kpo eka gishi: he is a miser");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekala");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("monkey, ring for standing pots on (made of palm leaf)");
-     dataObject.setExample("ekala angban: an iron ring sometimes applied to bicycle");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekan ayi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("eyebrow");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eken");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("poverty, pity");
-     dataObject.setExample("a kpo eken: he is poor, suffering, pitiful\nAlizaga sule a sim ekulu");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekilimi ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("da camel, (< E. camel)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eko");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("covetousness (fricative ekho), shooting, archery");
-     dataObject.setExample("kpo eko: to covet\n ma teeko: they are fighting with arrows\ntaloko: to shoot with bow and arrows\nwar");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekon");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("knife, or iyekon");
-     dataObject.setExample("Bekana ikuru, Alizaga iyikon: flour\nWaji lekon, Alizaga lokon");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpatsife");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("midnight");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpile");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("game, play, joke\nAlizaga lekpile");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpodga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("calf of leg (upper muscle)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpomo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("friendship involving exchange of gifts");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpro");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("inside hut, bedroom");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("bracelet worn above elbow");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekpu evugo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("thumb (Alizaga)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekro");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("giant rat, Cricetomys, flower, blossom, cf. mbumbwu");
-     dataObject.setExample("ako ekro: it is flowering\nAlizaga likuri(ago ekro), fish hook");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("e-kró a-mí");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("crocodile\nAlizaga ekru or ekuru");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekro enme");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("small beads (pink)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eku ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("mourning, funeral, death");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekufa ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("lynx");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekufu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("small path, ootpath, Oche Akda, exchange, leavings in a pot, authority");
-     dataObject.setExample("ana we kufo bi: he has authority over us");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekulu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("Cissampelos Pareira, Infusion of the tuber is used for stomach trouble, barren");
-     dataObject.setExample("a dzu ekulu a mbre mbo: she was barren and did not give birth");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekum");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("mushroom or ekom");
-     dataObject.setExample("sword grass, Imperata cylindrica");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekum anzo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("Red flowering silk cotton tree\nBombax buonopozense");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekum ogbu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("Name given to a male child born during the rains when there was a death.");
-     dataObject.setExample("a number of deaths lit. the corpses of rain.");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekyen");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("net (all types)");
-     dataObject.setExample("Alongani kokyen\nGako kotyen");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ekyim");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("sweat,perspiration, or ecim");
-     dataObject.setExample("a ta ekyim: he is perspiring");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ela");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("rag");
-     dataObject.setExample("ela okyen rag\nela akpa bit of paper");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("elan");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("scorpion");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("elem");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("tongue (lower tone than olum- sun)\nalso olum olom\nAlizaga elem enem");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eligi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("oil palm");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("em");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("there, yonder, look there");
-     dataObject.setExample("ba gi em- Let’s go!");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ema");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("thing, something");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("emakyekyeg");
-     dataObject.setType("pronoun.");
-     dataObject.setDefinition("one particular thing");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embaga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("power of witchcraft, swelling");
-     dataObject.setExample("\nembaga oto: swelling of the neck\nevil spirit by which witches can kill\na ri embaga: he is possessed by the spirit\nOpa a wa embaga ba ŋa buga mare Opa is: possessed by a spirit which kills people\nma wugo embaga agbyi: they put magic in a farm (to kill a trespasser)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("castor oil plant, Ricinus communis");
-     dataObject.setExample("leaves used to treat ulcers\nay embe a bwe ero: leaves of castor oil cover ulcers");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("e-mbgù");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("fight");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embile");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("hunger");
-     dataObject.setExample("embile e buga me: hunger kills me, I am very hungry.\nembile a kpo me ngbulu: I am very hungry");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embugu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("oarse grass used for making mats");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embwe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("jumblebeads, lucky beans");
-     dataObject.setExample("Abrus precatorius, used in magic");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embze");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("lion, or enbze");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("e-mbzí");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("domestic cat");
-     dataObject.setExample("bezhaku, Alizaga megyaku");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("emebi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("evil thing,snake");
-     dataObject.setExample("eme tana me may a snake bite me! (common oath)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("emze adzigi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("nosebleed");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("emre");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("orange root used for stomach troubles.");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("emve ashim");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("leaves of Lophira alata");
-     dataObject.setExample("tree held sacred by most peoples in this region.\nA common oath is emve ashim vu me");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("emvɔ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("tree used for magic with nut which contains oil");
-     dataObject.setExample("Lophira alata\nor envɔ");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("embro");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("crowd, cluster(Wakama)");
-     dataObject.setExample("ma shiki embro: the crowd gathers");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ende ende");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("every day, regularly");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("ena ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("irritation,indignation");
-     dataObject.setExample("a dzu ena la me: he was indignant with me");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enema or elema");
-     dataObject.setType("noun");
-     dataObject.setDefinition("sesam");
-     dataObject.setExample("beniseed\nSesamum indicum");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engama gba");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("plague locust, cf. engbatso");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engatsiki ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("sparrow-hawk");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbatso");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("solitary edible locusts");
-     dataObject.setExample("swarming variety engamagba, Wakama engbu atso, Angbashim engbi atso, Alogani takpano");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbetsi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("tales");
-     dataObject.setExample("a tsi engbetsi: he shows the culprit i.e. he tells tales");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("àengetsi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("skinner");
-     dataObject.setExample("a tsi engetsi gre eshri");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("potash");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbolo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("ripe bunch of palm fruit (cf. Ajige)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("flask, water gourd, navel");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbu amba");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("snuff-box, snuff-box tree");
-     dataObject.setExample("Oncoba spinosa: The hard round shells of fruit are used as snuff boxes\net. engbu flask + amba tobacco");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engbyé");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("miserliness");
-     dataObject.setExample("a kpo engbye: he is a miser");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("èngbye");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("smithed metal");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("cock");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("engro");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("mantis\ncf. abunadaga");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enje");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("times");
-     dataObject.setExample("a la enje inyi: he slept four times");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enje or enzhe");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("well, pit");
-     dataObject.setExample("enzhe ami: pit for water (better for well)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("Enje Egon");
-     dataObject.setType("pronoun.");
-     dataObject.setDefinition("town east of Wana or Lenge Egon");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enme");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("Negro peach\nSarcocephalus russergeri");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("eŋo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("locust tree, Parkia biglobosa, or elon, eŋon, Alizaga ela");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("fowl");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enugubo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("large brick");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("envigi");
-     dataObject.setType("noun, verb.");
-     dataObject.setDefinition("gum, ravine");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("envre");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("miserliness");
-     dataObject.setExample("a kpo envre: he is a miser");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("envrho");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("tree that grows along rivers used for medicine");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enyema");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("horse");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enyi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("elephan, nAlizaga eni");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enyin");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("sauce");
-     dataObject.setExample("me ri ehe la nyin: I eat food and sauce, Alizaga enine");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enzi");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("voice, sound");
-     dataObject.setExample("te enzi: to greet");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enzige");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("toy arrow made of grass stem");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("enzo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("star");
-     dataObject.setExample("Lodzi enzoho (the H very strongly aspirated)");
-     dataCollection.add(dataObject);
-
-     dataObject = new DataObject();
-     dataObject.setWord("endaga ");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("andu ex one hundred");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("eben");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("goat (female)\nor ebon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("èbíèkpŋmrè");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("butter beans");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebive");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("spider");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebmon ebon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("granary");
+        dataObject.setExample("ebmon alem: the granary in the centre of a house for cereals\nBekana tabo o\nOganzhi embo");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wild custard apple");
+        dataObject.setExample("Annona senegalensis\nagulu ebro maize\nAlizaga eburu\nOganzhi ebuhu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebro elaba");
+        dataObject.setType("noun, pronoun.");
+        dataObject.setDefinition("fez (Alizaga)\n elaba red");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebuga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("killing, murder, war\nsee e-mbgù");
+        dataObject.setExample("Osan pa la Eggon ma kpo ebuga: there was war between Lafia and Eggon people");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("breast or milk\nor ebim");
+        dataObject.setExample("Alizaga lembem, sausage tree, Kigelia aethiopica, or ebim\net. breast\nflowers used by women at Angbashu as medicine");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebwa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("pair of pincers");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebzi akum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("silk cotton tree\nkapok\nCeiba pentandra");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebziga");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("big Wana market");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ebzo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wild cat");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eda");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fishing net, wisdom, cunning ");
+        dataObject.setExample("a ndba eda ata: he cast a net\nstone trap for lizards, consisting of a stone held up by a stick and released when the bait is pulled \nma zhin eda: they set a trap\na we da mbo: he is not wise\nkpo lo deda: do it wisely, do it carefully");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edivi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fence-cactus\nEuphorbia kamerunica, or edibi");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edjimedyim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("black snake\nAlizaga eduvm");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edogo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("ground squirrel");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edugo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("shea-nut");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("kind, sort, type");
+        dataObject.setExample("ishi edugu he lo: what kind of thing is this?\nedugu he lo: what do you call it?");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edun");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("rock pool\ncf. arauga");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eduzu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("housefly");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edza");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("lead, silver");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzefin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("black metal cf. Hausa \"bakin\" Karfe\ncf. amefin pure water");
+        dataObject.setExample("Farin Ruwa: Falls are called Edza because of their silvery appearance");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thorn");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzi");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("luck ");
+        dataObject.setExample("edzi a be mi gishi: I am very lucky");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzi nyin");
+        dataObject.setType("noun, pronoun.");
+        dataObject.setDefinition("something wonderful (has happened)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzibi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thousand");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mosquito, or ezin: termites");
+        dataObject.setExample("the winged ones are eaten");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wooden mortar");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("edzu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("twisted metal bracelet, black plum\nVitex doniana");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("effi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tick, or effivi");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("effita");
+        dataObject.setType("noun, pronoun.");
+        dataObject.setDefinition("to be cloudy");
+        dataObject.setExample("effi thickness + ta to be in place\ncf. adun ota or andun ot");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("efiyangbu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("female lizard cf. aga");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("efi akufa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("apex of the inside of a roof");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("efin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("blue, black, ignorance");
+        dataObject.setExample("okyen ofin: blue cloth\nno yi odzu efin ayika: are you still as ignorant as this?");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("efi(vi)");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("odour, scent, smell");
+        dataObject.setExample("a shika efivi gishi: it has a strong scent");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("efpu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("jealousy\nofubu (Alizaga)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("nose, steep place");
+        dataObject.setExample("ozhe a wo egala: the road is steep");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egan");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("evidence, testimony");
+        dataObject.setExample("arefin adzigi egen- the man bore witness");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egba");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("jump, hurrying, voice, speech, babbling");
+        dataObject.setExample("a ta egba: he jumped cf. enzi\na kpo legba: he babbles");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egbaga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hyena");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egban ");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("thick, or legban");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Egbe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("throat");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egbili ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wrestling game");
+        dataObject.setExample("ma te gbili: they play the wrestling game. The cry during play\nis amo amo hence gi ta mo-let: us play the wrestling game");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egbon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bsale (from gbon to buy)");
+        dataObject.setExample("kp egbon: to make a sale to trade\nri egbon: to eat a sale- to make a profit");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egbre!");
+        dataObject.setType("exclamation.");
+        dataObject.setDefinition("wonder- an expression of amazement at something new\negbregbre");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egbre ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("wages");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egbye ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fibrous strips from palm leaves used in roofing");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ege");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("salt, place of refuge");
+        dataObject.setExample("me idzigi ege ba he: I emerged from a place and came here\napparently means Had I known I would be caught I would not have come out of hiding\nAlizaga aga");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egen");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cross");
+        dataObject.setExample("ege ozhe a kpulo egen: a road crosses it (another road)\nbracelet knife worn on hand for archery\nHausa kanga\nor egne, Wanjibi akme, Alizaga Manga");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egibe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Fermented extract of bark of Bridelia ferruginea used to harden floors\nor edyibi");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egimo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("breath");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Ègón");
+        dataObject.setType("pronoun, noun.");
+        dataObject.setDefinition("Eggon people, language and country");
+        dataObject.setExample("abegon: single individual\nmoa ègón: people in general");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eguba");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("number");
+        dataObject.setExample("a ri eshuko eguba eha- he is called by two names");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egze");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bulrush millet");
+        dataObject.setExample("corresponding to Hausa maiwa\nPennisetum sp.");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egzo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("animal horn, car-horn\ncf. ogzo");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egzo etifa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("horn of a small antelope");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("egzu enema");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("linseed oil");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eh hwe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("grey hairs");
+        dataObject.setExample("adzigi eh hwe: he is getting grey");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eha");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("divination");
+        dataObject.setExample("a kolo eha: he has gone to the diviner");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehe egbi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("left-over food\nalso ehe egbyi fruit");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cereal porridge");
+        dataObject.setExample("Alizaga lehe, moon (Alizaga)\ncf. oha");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eher");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("unsatisfactorily, unsuitably, left-handedly");
+        dataObject.setExample("no lu me alo leher: you said an unsatisfactory thing to me\nobugo e: her left hand");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehili");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("testicles");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehimi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("foundation, agreement, covenant, promise");
+        dataObject.setExample("a nyun ehim ba na da na sule: he made a promise to give him a shilling\na him odolo ba na da na sule: he promised him a shilling");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehola");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cave");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehon");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("tree covered with red flowers in December\nFirmiana Barteri");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bottle");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehrwe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("shoulder, cf. anze\nAlizaga ehura");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ehwala ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("stream");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eka");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("thus");
+        dataObject.setExample("a we ka: he like this it is so just so\neka he nga and thus meanness, covetousness\na kpo eka gishi: he is a miser");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekala");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("monkey, ring for standing pots on (made of palm leaf)");
+        dataObject.setExample("ekala angban: an iron ring sometimes applied to bicycle");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekan ayi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("eyebrow");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eken");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("poverty, pity");
+        dataObject.setExample("a kpo eken: he is poor, suffering, pitiful\nAlizaga sule a sim ekulu");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekilimi ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("da camel, (< E. camel)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eko");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("covetousness (fricative ekho), shooting, archery");
+        dataObject.setExample("kpo eko: to covet\n ma teeko: they are fighting with arrows\ntaloko: to shoot with bow and arrows\nwar");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekon");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("knife, or iyekon");
+        dataObject.setExample("Bekana ikuru, Alizaga iyikon: flour\nWaji lekon, Alizaga lokon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpatsife");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("midnight");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpile");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("game, play, joke\nAlizaga lekpile");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpodga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("calf of leg (upper muscle)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpomo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("friendship involving exchange of gifts");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("inside hut, bedroom");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("bracelet worn above elbow");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekpu evugo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thumb (Alizaga)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekro");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("giant rat, Cricetomys, flower, blossom, cf. mbumbwu");
+        dataObject.setExample("ako ekro: it is flowering\nAlizaga likuri(ago ekro), fish hook");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("e-kró a-mí");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("crocodile\nAlizaga ekru or ekuru");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekro enme");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small beads (pink)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eku ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mourning, funeral, death");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekufa ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("lynx");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekufu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("small path, ootpath, Oche Akda, exchange, leavings in a pot, authority");
+        dataObject.setExample("ana we kufo bi: he has authority over us");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekulu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Cissampelos Pareira, Infusion of the tuber is used for stomach trouble, barren");
+        dataObject.setExample("a dzu ekulu a mbre mbo: she was barren and did not give birth");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekum");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mushroom or ekom");
+        dataObject.setExample("sword grass, Imperata cylindrica");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekum anzo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Red flowering silk cotton tree\nBombax buonopozense");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekum ogbu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Name given to a male child born during the rains when there was a death.");
+        dataObject.setExample("a number of deaths lit. the corpses of rain.");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekyen");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("net (all types)");
+        dataObject.setExample("Alongani kokyen\nGako kotyen");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ekyim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sweat,perspiration, or ecim");
+        dataObject.setExample("a ta ekyim: he is perspiring");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ela");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("rag");
+        dataObject.setExample("ela okyen rag\nela akpa bit of paper");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("elan");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("scorpion");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("elem");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tongue (lower tone than olum- sun)\nalso olum olom\nAlizaga elem enem");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eligi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("oil palm");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("em");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("there, yonder, look there");
+        dataObject.setExample("ba gi em- Let’s go!");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ema");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("thing, something");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("emakyekyeg");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("one particular thing");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embaga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("power of witchcraft, swelling");
+        dataObject.setExample("\nembaga oto: swelling of the neck\nevil spirit by which witches can kill\na ri embaga: he is possessed by the spirit\nOpa a wa embaga ba ŋa buga mare Opa is: possessed by a spirit which kills people\nma wugo embaga agbyi: they put magic in a farm (to kill a trespasser)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("castor oil plant, Ricinus communis");
+        dataObject.setExample("leaves used to treat ulcers\nay embe a bwe ero: leaves of castor oil cover ulcers");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("e-mbgù");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fight");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embile");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("hunger");
+        dataObject.setExample("embile e buga me: hunger kills me, I am very hungry.\nembile a kpo me ngbulu: I am very hungry");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embugu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("oarse grass used for making mats");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embwe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("jumblebeads, lucky beans");
+        dataObject.setExample("Abrus precatorius, used in magic");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embze");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("lion, or enbze");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("e-mbzí");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("domestic cat");
+        dataObject.setExample("bezhaku, Alizaga megyaku");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("emebi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("evil thing,snake");
+        dataObject.setExample("eme tana me may a snake bite me! (common oath)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("emze adzigi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("nosebleed");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("emre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("orange root used for stomach troubles.");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("emve ashim");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("leaves of Lophira alata");
+        dataObject.setExample("tree held sacred by most peoples in this region.\nA common oath is emve ashim vu me");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("emvɔ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tree used for magic with nut which contains oil");
+        dataObject.setExample("Lophira alata\nor envɔ");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("embro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("crowd, cluster(Wakama)");
+        dataObject.setExample("ma shiki embro: the crowd gathers");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ende ende");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("every day, regularly");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("ena ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("irritation,indignation");
+        dataObject.setExample("a dzu ena la me: he was indignant with me");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enema or elema");
+        dataObject.setType("noun");
+        dataObject.setDefinition("sesam");
+        dataObject.setExample("beniseed\nSesamum indicum");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engama gba");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("plague locust, cf. engbatso");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engatsiki ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sparrow-hawk");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbatso");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("solitary edible locusts");
+        dataObject.setExample("swarming variety engamagba, Wakama engbu atso, Angbashim engbi atso, Alogani takpano");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbetsi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tales");
+        dataObject.setExample("a tsi engbetsi: he shows the culprit i.e. he tells tales");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("àengetsi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("skinner");
+        dataObject.setExample("a tsi engetsi gre eshri");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("potash");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbolo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("ripe bunch of palm fruit (cf. Ajige)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("flask, water gourd, navel");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbu amba");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("snuff-box, snuff-box tree");
+        dataObject.setExample("Oncoba spinosa: The hard round shells of fruit are used as snuff boxes\net. engbu flask + amba tobacco");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engbyé");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("miserliness");
+        dataObject.setExample("a kpo engbye: he is a miser");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("èngbye");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("smithed metal");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("cock");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("engro");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("mantis\ncf. abunadaga");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enje");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("times");
+        dataObject.setExample("a la enje inyi: he slept four times");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enje or enzhe");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("well, pit");
+        dataObject.setExample("enzhe ami: pit for water (better for well)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("Enje Egon");
+        dataObject.setType("pronoun.");
+        dataObject.setDefinition("town east of Wana or Lenge Egon");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enme");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("Negro peach\nSarcocephalus russergeri");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("eŋo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("locust tree, Parkia biglobosa, or elon, eŋon, Alizaga ela");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("fowl");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enugubo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("large brick");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("envigi");
+        dataObject.setType("noun, verb.");
+        dataObject.setDefinition("gum, ravine");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("envre");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("miserliness");
+        dataObject.setExample("a kpo envre: he is a miser");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("envrho");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("tree that grows along rivers used for medicine");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enyema");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("horse");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enyi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("elephan, nAlizaga eni");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enyin");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("sauce");
+        dataObject.setExample("me ri ehe la nyin: I eat food and sauce, Alizaga enine");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enzi");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("voice, sound");
+        dataObject.setExample("te enzi: to greet");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enzige");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("toy arrow made of grass stem");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("enzo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("star");
+        dataObject.setExample("Lodzi enzoho (the H very strongly aspirated)");
+        dataCollection.add(dataObject);
+
+        dataObject = new DataObject();
+        dataObject.setWord("endaga ");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("andu ex one hundred");
+        dataCollection.add(dataObject);
 
         dataObject = new DataObject();
         dataObject.setWord("Ende");
@@ -2565,82 +4242,82 @@ public class DataObjectCollection {
         dataObject.setExample("Alizaga fye evye");
         dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("fyen");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to find, to obtain\nalos wyen");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("fyen");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to find, to obtain\nalos wyen");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("gaŋa");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to attain, to suffice");
-     dataObject.setExample("a gaŋa mbò:- it is not sufficient, he is not equal to it");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("gaŋa");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to attain, to suffice");
+        dataObject.setExample("a gaŋa mbò:- it is not sufficient, he is not equal to it");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("gazhiga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("half or what is left over");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("gazhiga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("half or what is left over");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("gba");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to divide");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("gba");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to divide");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("gbagba");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("common greeting");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("gbagba");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("common greeting");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("gbagbagba");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("Swaying (as of body)");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("gbagbagba");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("Swaying (as of body)");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("gbaku");
-     dataObject.setType("adjective.");
-     dataObject.setDefinition("very big, giant");
-     dataObject.setExample("a wa gbaku a lo: it is very big\nbaku are a giant of a man");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("gbaku");
+        dataObject.setType("adjective.");
+        dataObject.setDefinition("very big, giant");
+        dataObject.setExample("a wa gbaku a lo: it is very big\nbaku are a giant of a man");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("hala");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to reprove");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("hala");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to reprove");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("he");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to slip, to be slippery");
-     dataObject.setExample("odoga a he:- the foot slipped\nokro o he: the place is slippery\nalso hre");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("he");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to slip, to be slippery");
+        dataObject.setExample("odoga a he:- the foot slipped\nokro o he: the place is slippery\nalso hre");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("he ekpaga");
-     dataObject.setType("verb, pronoun.");
-     dataObject.setDefinition("to be over-ambitious\nto be overbearing");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("he ekpaga");
+        dataObject.setType("verb, pronoun.");
+        dataObject.setDefinition("to be over-ambitious\nto be overbearing");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("hehehe");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("in crowds(tulli)");
-     dataObject.setExample("marefin ma shki Edziga hehehe: the people throng the Edziga market");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("hehehe");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("in crowds(tulli)");
+        dataObject.setExample("marefin ma shki Edziga hehehe: the people throng the Edziga market");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("hen");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to sweep, to castrate ");
-     dataObject.setExample("hren");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("hen");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to sweep, to castrate ");
+        dataObject.setExample("hren");
+        dataCollection.add(dataObject);
 
         dataObject = new DataObject();
         dataObject.setWord("ì-bí");
@@ -2850,165 +4527,165 @@ public class DataObjectCollection {
         dataObject.setDefinition("arrow");
         dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("o-bgó");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("arm, hand, wealth");
-     dataObject.setExample("Bekana kabugo obugo eher: left hand\neher: unsatisfactory\nobgó iri: right hand (hand of eating) but also favoured hand,hand of strength\nobgo okyen: long narrow strip of cloth or obgo atyele");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("o-bgó");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("arm, hand, wealth");
+        dataObject.setExample("Bekana kabugo obugo eher: left hand\neher: unsatisfactory\nobgó iri: right hand (hand of eating) but also favoured hand,hand of strength\nobgo okyen: long narrow strip of cloth or obgo atyele");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("obro agulu");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("maize cob with grains on it");
-     dataObject.setExample("ashi agulu: empty maize cob\nagulu a se ebro aha: the stalk has two cobs");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("obro agulu");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("maize cob with grains on it");
+        dataObject.setExample("ashi agulu: empty maize cob\nagulu a se ebro aha: the stalk has two cobs");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("obubo");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("describes bigness");
-     dataObject.setExample("a wo bubo: it is big");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("obubo");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("describes bigness");
+        dataObject.setExample("a wo bubo: it is big");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("obuga");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("murder");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("obuga");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("murder");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pa");
-     dataObject.setType("conjunction.");
-     dataObject.setDefinition("and");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pa");
+        dataObject.setType("conjunction.");
+        dataObject.setDefinition("and");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pala");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("quickly");
-     dataObject.setExample("pa pa pala");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pala");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("quickly");
+        dataObject.setExample("pa pa pala");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pe");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to trust, to be intimate, to meet");
-     dataObject.setExample("me kolo pe pa na ayika: I wish to know intimately\nepe: seems to be the noun\nme ka epe pa na ayika: I wish first to see intimacy between us\ngi pe gi: to meet");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pe");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to trust, to be intimate, to meet");
+        dataObject.setExample("me kolo pe pa na ayika: I wish to know intimately\nepe: seems to be the noun\nme ka epe pa na ayika: I wish first to see intimacy between us\ngi pe gi: to meet");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pili");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to graze or popili");
-     dataObject.setExample("obuga o pili na opili: the arrow grazed him");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pili");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to graze or popili");
+        dataObject.setExample("obuga o pili na opili: the arrow grazed him");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pom");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to beat soft things in mortar\ncf. shu for grains)");
-     dataObject.setExample("mo ashe a pom anju: the women are pounding yam");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pom");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to beat soft things in mortar\ncf. shu for grains)");
+        dataObject.setExample("mo ashe a pom anju: the women are pounding yam");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pre");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to press down");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pre");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to press down");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pyan");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("well");
-     dataObject.setExample("no kso pyan? have you risen well?");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pyan");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("well");
+        dataObject.setExample("no kso pyan? have you risen well?");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pyapyan");
-     dataObject.setType("adjectives.");
-     dataObject.setDefinition("clean");
-     dataObject.setExample("eguba ban a wo pyapyan: his body is clean");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pyapyan");
+        dataObject.setType("adjectives.");
+        dataObject.setDefinition("clean");
+        dataObject.setExample("eguba ban a wo pyapyan: his body is clean");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("pyen");
-     dataObject.setType("adjectives.");
-     dataObject.setDefinition("all or every");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("pyen");
+        dataObject.setType("adjectives.");
+        dataObject.setDefinition("all or every");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("ra");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to remain, to make (profit)");
-     dataObject.setExample("a ra ogbu: there is half left\nsule a ra ogbu: me I made a profit of a shilling");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("ra");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to remain, to make (profit)");
+        dataObject.setExample("a ra ogbu: there is half left\nsule a ra ogbu: me I made a profit of a shilling");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("ratsipa");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to stick out, to project");
-     dataObject.setExample("arefin a ratsipa soso: a man appeared out of the grass\nanju a ratsipa idzi: a yam is sticking out of the ground\nami a ratsipe engbu de ámo: a little water remains in the flask\net. ra to remain + tsipe a little");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("ratsipa");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to stick out, to project");
+        dataObject.setExample("arefin a ratsipa soso: a man appeared out of the grass\nanju a ratsipa idzi: a yam is sticking out of the ground\nami a ratsipe engbu de ámo: a little water remains in the flask\net. ra to remain + tsipe a little");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("rémérémérémé");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("smooth ");
-     dataObject.setExample("variegated (like the skin of a snake)");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("rémérémérémé");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("smooth ");
+        dataObject.setExample("variegated (like the skin of a snake)");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("rérérén");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("thoroughly");
-     dataObject.setExample("kpo lo rérérén: do it thoroughly");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("rérérén");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("thoroughly");
+        dataObject.setExample("kpo lo rérérén: do it thoroughly");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("ri");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to enter into, to be named, to call, to eat, to be consumed, to be successful");
-     dataObject.setExample("ri oken: to contract a debt\na ri mi oken: he contracted a debt with me\na ri shi? What is it called?\neshuko ban a ri ayi: What is his name?\nme ri Abimiku: my name is Abimiku\noden o ri ovro: the house burnt down\n");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("ri");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to enter into, to be named, to call, to eat, to be consumed, to be successful");
+        dataObject.setExample("ri oken: to contract a debt\na ri mi oken: he contracted a debt with me\na ri shi? What is it called?\neshuko ban a ri ayi: What is his name?\nme ri Abimiku: my name is Abimiku\noden o ri ovro: the house burnt down\n");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("rìgá");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("gown");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("rìgá");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("gown");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("rígí");
-     dataObject.setType("adverb.");
-     dataObject.setDefinition("truly");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("rígí");
+        dataObject.setType("adverb.");
+        dataObject.setDefinition("truly");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("rum");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to die down, to be extinguished, to put out (a fire)");
-     dataObject.setExample("ovro orum: the fire has gone out\ngi rum ovro amo: we are putting the fire out");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("rum");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to die down, to be extinguished, to put out (a fire)");
+        dataObject.setExample("ovro orum: the fire has gone out\ngi rum ovro amo: we are putting the fire out");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("rwe");
-     dataObject.setType("verb.");
-     dataObject.setDefinition("to split, to cleave, to cut in two");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("rwe");
+        dataObject.setType("verb.");
+        dataObject.setDefinition("to split, to cleave, to cut in two");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("sa");
-     dataObject.setType("adverb,verb.");
-     dataObject.setDefinition("until, to return, to repeat an action");
-     dataObject.setExample("o sa ba: he came back(verb)\na dzuma sa bari a ba: he will stay until he comes(Adverb)");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("sa");
+        dataObject.setType("adverb,verb.");
+        dataObject.setDefinition("until, to return, to repeat an action");
+        dataObject.setExample("o sa ba: he came back(verb)\na dzuma sa bari a ba: he will stay until he comes(Adverb)");
+        dataCollection.add(dataObject);
 
-     dataObject = new DataObject();
-     dataObject.setWord("sakpa");
-     dataObject.setType("noun.");
-     dataObject.setDefinition("entrance house");
-     dataCollection.add(dataObject);
+        dataObject = new DataObject();
+        dataObject.setWord("sakpa");
+        dataObject.setType("noun.");
+        dataObject.setDefinition("entrance house");
+        dataCollection.add(dataObject);
 
         dataObject = new DataObject();
         dataObject.setWord("sála");

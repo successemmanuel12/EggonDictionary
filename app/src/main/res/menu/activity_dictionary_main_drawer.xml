@@ -14,11 +14,11 @@
             android:icon="@android:drawable/ic_menu_more"
             android:title="Get Pro"
             tools:ignore="HardcodedText" />
-        <item
-            android:id="@+id/nav_word"
-            android:icon="@android:drawable/ic_popup_reminder"
-            android:title="Word of the Day"
-            tools:ignore="HardcodedText" />
+<!--        <item-->
+<!--            android:id="@+id/nav_word"-->
+<!--            android:icon="@android:drawable/ic_popup_reminder"-->
+<!--            android:title="Word of the Day"-->
+<!--            tools:ignore="HardcodedText" />-->
         <item
             android:id="@+id/nav_history"
             android:icon="@drawable/ic_history_black_24dp"
