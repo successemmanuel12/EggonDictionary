@@ -6,9 +6,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="welcome_text">EGGON LOCAL LANGUAGE DICTIONARY</string>
+    <string name="welcome_text">EGGON LANGUAGE DICTIONARY</string>
 
-    <string name="eggon_local_dictionary_n_design_by">Eggon Local Dictionary \nDesign by:</string>
+    <string name="eggon_local_dictionary_n_design_by">Eggon Language Dictionary \nDesign by:</string>
     <string name="ibrahim_emmanuel_success">Ibrahim Emmanuel Success</string>
     <string name="communicate">Communicate</string>
     <string name="title_activity_settings">Settings</string>
@@ -113,6 +113,12 @@
     <string name="mail_us_suggestions">Mail Us Suggestions</string>
     <string name="word_of_the_day">Word Of The Day</string>
     <string name="delete_word">Delete Word</string>
+    <string name="loading_image">Loading Image</string>
+    <string name="apple">Apple</string>
+    <string name="noun">noun:</string>
+    <string name="meaning">Meaning</string>
+    <string name="apple_is_a_very_nutritious_and_nice_fruit">Apple is a very nutritious and nice fruit</string>
+    <string name="example_s">Example(S)</string>
 
 </resources>
 

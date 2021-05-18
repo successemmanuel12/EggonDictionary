@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:hint="Apple"
+        android:hint="@string/apple"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -24,7 +24,7 @@
         android:layout_below="@+id/text_selected"
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
-        android:hint="noun:"
+        android:hint="@string/noun"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -35,7 +35,7 @@
         android:layout_below="@+id/text_type"
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
-        android:hint="Meaning"
+        android:hint="@string/meaning"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_def"
         android:layout_margin="10dp"
-        android:hint="Apple is a very nutritious and nice fruit "
+        android:hint="@string/apple_is_a_very_nutritious_and_nice_fruit"
         android:textSize="20sp" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_meaning"
         android:layout_margin="10dp"
-        android:hint="Example(S)"
+        android:hint="@string/example_s"
         android:textSize="20sp"
         android:textStyle="bold" />
 
